@@ -20,7 +20,7 @@ namespace BillettLibTest
         {
             var MC = new MC();
 
-            Assert.AreEqual("MC", MC.køretøj());
+            Assert.AreEqual("MC", MC.KøretøjType());
         }
     }
 }

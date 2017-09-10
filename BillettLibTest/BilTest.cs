@@ -14,7 +14,7 @@ namespace BillettLibTest
         {
             var bil = new Bil();
 
-            Assert.AreEqual("Bil", bil.køretøj());
+            Assert.AreEqual("Bil", bil.KøretøjType());
         }
 
         /*Test om Pris methoden i bil classen retunerer det den skal*/
