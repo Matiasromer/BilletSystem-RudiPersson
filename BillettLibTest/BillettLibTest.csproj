@@ -53,6 +53,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="BilTest.cs" />
+    <Compile Include="MCtests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

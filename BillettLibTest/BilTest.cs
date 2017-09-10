@@ -10,7 +10,7 @@ namespace BillettLibTest
 
         /*Test om køretøj methoden i bil classen retunerer det den skal*/
         [TestMethod]
-        public void Køretøj()
+        public void TestKøretøj()
         {
             var bil = new Bil();
 
@@ -19,7 +19,7 @@ namespace BillettLibTest
 
         /*Test om Pris methoden i bil classen retunerer det den skal*/
         [TestMethod]
-        public void Pris()
+        public void TestPris()
         {
             var bil = new Bil();
 
