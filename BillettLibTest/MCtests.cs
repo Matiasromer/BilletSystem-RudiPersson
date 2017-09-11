@@ -7,6 +7,11 @@ namespace BillettLibTest
     [TestClass]
     public class MCtests
     {
+
+        /// <summary>
+        /// Lav kommentarer til testene så man ved hvad der sker.
+        /// </summary>
+        
         [TestMethod]
         public void testMcPris()
         {
@@ -22,5 +27,9 @@ namespace BillettLibTest
 
             Assert.AreEqual("MC", MC.KøretøjType());
         }
+
+
+        
+       
     }
 }
