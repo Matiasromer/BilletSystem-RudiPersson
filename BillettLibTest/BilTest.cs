@@ -27,5 +27,16 @@ namespace BillettLibTest
         }
 
 
+        /*Test om nummerpladen er længere en 7 tegn, vis den er kast en ArgumentException*/
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void TestBilLængdeAfNp()
+        {
+            var bil = new Bil();
+            var t = bil.Nummerplade = "123456789";
+
+            Assert.AreEqual("123456789", t);
+        }
+
     }
 }
